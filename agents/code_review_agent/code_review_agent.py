@@ -2,7 +2,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from utils.get_prompt import get_prompt
 from states.state import CodeReview, GraphState
 from langgraph.types import Command
-from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
+from langchain_core.messages import AIMessage
 from langchain_core.prompts import ChatPromptTemplate
 import os
 
